@@ -1,0 +1,16 @@
+{
+  "name": "coffeescript-build",
+  "main": "./lib/coffeescript-build",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Build the current coffee script file.",
+  "activationEvents": ["coffeescript-build:build"],
+  "repository": "https://github.com/atom/coffeescript-build",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "coffee-script": "1.7.1"
+  }
+}

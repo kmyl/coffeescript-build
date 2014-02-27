@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable coffeescript-build': 'coffeescript-build:build'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'CoffeeScript Build'
+      'submenu': [
+        { 'label': 'Build', 'command': 'coffeescript-build:build' }
+      ]
+    ]
+  }
+]
