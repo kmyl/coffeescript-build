@@ -1,7 +1,7 @@
 {
   "name": "coffeescript-build",
   "main": "./lib/coffeescript-build",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": false,
   "description": "Build the current coffee script file.",
   "activationEvents": [
