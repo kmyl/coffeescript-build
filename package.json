@@ -5,7 +5,7 @@
   "private": true,
   "description": "Build the current coffee script file.",
   "activationEvents": ["coffeescript-build:build"],
-  "repository": "https://github.com/atom/coffeescript-build",
+  "repository": "https://github.com/iamphill/coffeescript-build",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
