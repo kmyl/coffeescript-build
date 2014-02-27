@@ -1,3 +1,3 @@
-# coffeescript-build package
+# CoffeeScript build
 
-A short description of your package.
+A quick and simple way to build a coffee script file.
