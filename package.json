@@ -1,5 +1,5 @@
 {
-  "name": "CoffeeSCript Build",
+  "name": "CoffeeScript Build",
   "main": "./lib/coffeescript-build",
   "version": "1.3.0",
   "private": false,
