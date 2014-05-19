@@ -42,6 +42,7 @@ class CoffeescriptBuildView extends View
   buildFromText: (text) =>
     compiled = coffee.compile text
     atom.workspace.getActiveEditor().setText compiled
+    @buildFromFile editor.getPath()
 
   buildFromFile: (file) =>
     if file.indexOf(".coffee") > -1

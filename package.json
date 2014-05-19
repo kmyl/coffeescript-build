@@ -23,11 +23,5 @@
   "bugs": {
     "url": "https://github.com/iamphill/coffeescript-build/issues"
   },
-  "homepage": "https://github.com/iamphill/coffeescript-build",
-  "_id": "coffeescript-build@1.2.0",
-  "dist": {
-    "shasum": "2dfafb75dabf0f2930f276dbc5cd6ad71f3bb3df"
-  },
-  "_resolved": "/var/folders/jz/gjhcygh51fjbjrmgxlns2sfh0000gn/T/d-114419-82372-m1s8h8/package.tgz",
-  "_from": "/var/folders/jz/gjhcygh51fjbjrmgxlns2sfh0000gn/T/d-114419-82372-m1s8h8/package.tgz"
+  "homepage": "https://github.com/iamphill/coffeescript-build"
 }
