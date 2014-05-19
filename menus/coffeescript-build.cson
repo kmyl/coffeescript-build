@@ -1,0 +1,18 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.tree-view':
+    'CoffeScript: Build': 'coffeescript-build:contextbuild'
+  '.workspace':
+    'CoffeeScript: Build': 'coffeescript-build:build'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'CoffeeScript Build'
+      'submenu': [
+        { 'label': 'Build', 'command': 'coffeescript-build:build' }
+      ]
+    ]
+  }
+]
