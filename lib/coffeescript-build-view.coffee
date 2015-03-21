@@ -45,10 +45,20 @@ class CoffeescriptBuildView extends View
     @buildFromFile editor.getPath()
 
   buildFromFile: (file) =>
-    if file.indexOf(".coffee") > -1
+    isCoffee = (file.indexOf(".coffee") > -1)
+    isLiterateCoffee = (file.indexOf(".litcoffee") > -1)
+
+    if isCoffee or isLiterateCoffee
       fs.readFile file, 'utf8', (err, data) =>
-        compiled = coffee.compile data
-        newPath = file.replace ".coffee", ".js"
+        compileOptions =
+          literate: isLiterateCoffee
+        
+        compiled = coffee.compile data, compileOptions
+
+        if isLiterateCoffee
+          newPath = file.replace ".litcoffee", ".js"
+        else
+          newPath = file.replace ".coffee", ".js"
 
         # Write to file
         fs.writeFile newPath, compiled, (err, data) =>
