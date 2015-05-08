@@ -16,7 +16,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "coffee-script": "1.7.1"
+    "coffee-script": "1.9.2"
   },
   "readme": "# CoffeeScript build\n\nA quick and simple way to build a coffee script file.\n\nKeymapped to\n`\ncmd-alt-b\n`\n\n![Imgur](http://i.imgur.com/I1EeNn4.png)\n",
   "readmeFilename": "README.md",
